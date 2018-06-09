@@ -1,0 +1,16 @@
+kk: 
+  name: kk
+  age: 27
+
+server:
+  port: 8080
+  session-timeout: 30
+  tomcat.max-threads: 0
+  tomcat.uri-encoding: UTF-8
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mysql
+    username: oge
+    password: oge@123
+    driverClassName: com.mysql.jdbc.Driver
+    
